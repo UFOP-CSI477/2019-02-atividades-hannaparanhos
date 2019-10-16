@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Vendas</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Cadastre sua Venda</h1>
+    <hr>
+
+    <table style="width: 50%; text-align:left">
+    <form action="" method="POST">
+        <tr>
+            <th><label>Cliente:</label></th>
+            <th>
+                <select name="cliente">
+                    <option value="1">André</option>
+                    <option value="2">Maria</option>
+                    <option value="3">João</option>
+                    <option value="4">José</option>
+                    <option value="5">Ana</option>
+                </select>
+            </th>
+        </tr>
+        <tr>
+            <th><label>Produto:</label></th>
+            <th>
+                <select name="produto">
+                    <option value="1">Uno</option>
+                    <option value="2">Jipe</option>
+                    <option value="3">Strada</option>
+                    <option value="4">Palio</option>
+                    <option value="5">Gol</option>
+                </select>
+            </th>
+        </tr>
+         <tr>
+            <th><label>Custo:</label></th>
+            <th><input type="number" name="" id=""></th>
+        </tr>
+         <tr>
+            <th><label>Valor:</label></th>
+            <th><input type="number" name="" id=""></th>
+        </tr>
+         <tr>
+            <th><br><label>Forma de pagamento:</label></th>
+            <th><br>
+                    <input type="radio" name="pag" value="um" checked> Dinheiro<br>
+                    <input type="radio" name="pag" value="dois"> Débito<br>
+                    <input type="radio" name="pag" value="tres"> Crédito
+            </th>
+        </tr>
+         <tr>
+            <th></th>
+            <th><br><input type="submit" onclick="alert('Venda Cadastrado com Sucesso!')" value="Cadastrar"></th>
+        </tr>
+
+    </form>
+    </table>
+</body>
+</html>
