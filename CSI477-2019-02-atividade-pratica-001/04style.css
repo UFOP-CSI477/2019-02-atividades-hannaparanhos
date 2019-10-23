@@ -1,0 +1,9 @@
+h1 {
+    text-align: center;
+    color: rgb(122, 30, 150);
+}
+
+hr {
+    border-top: 3px solid;
+    color: rgb(202, 74, 149);
+}
