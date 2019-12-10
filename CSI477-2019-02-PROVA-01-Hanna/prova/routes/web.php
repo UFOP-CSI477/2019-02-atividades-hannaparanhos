@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('home', 'HomeController@index')->name('home');
 
 Route::group(['middleware' => 'auth'], function () {
 	Route::resource('user', 'UserController', ['except' => ['show']]);
@@ -27,4 +27,6 @@ Route::group(['middleware' => 'auth'], function () {
 
 Route::get('area_geral', 'areaGeralController@index')->name('areaGeral');
 Route::post('pesquisa_area', 'areaGeralController@pesquisaArea')->name('pesquisaArea');
+Route::get('area_adm', 'areaAdmController@index')->name('areaAdm');
+Route::post('area_adm', 'areaAdmController@insert')->name('AreaAdmInsert');
 

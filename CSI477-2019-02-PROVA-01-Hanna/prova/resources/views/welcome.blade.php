@@ -14,7 +14,7 @@
                                         <div class="card-body">
                                         <h5 class="card-title">Área Administrativa</h5>
                                         <p class="card-text">Se você é do Colegiado e deseja entrar na Área Administrativa</p>
-                                        <a href="#" class="btn btn-primary">CLIQUE AQUI</a>
+                                        <a href="{{ route('areaAdm') }}" class="btn btn-primary">CLIQUE AQUI</a>
                                         </div>
                                     </div>
                                 </div>
